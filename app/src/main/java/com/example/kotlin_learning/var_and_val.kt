@@ -10,6 +10,6 @@ fun main() {
 
     val myAge = 25
     val myFavNo = 10
-    println("my Age is : $myAge")
-    println("my FavNo is : $myFavNo")
+    println("i am $myAge years old and my fav no is $myFavNo")
+
 }
