@@ -8,6 +8,6 @@ class Triangle(val a : Double,val b: Double, val c : Double) : Shape("Triangle")
         println("Perimeter of $name - ${perimeter()}")
     }
 
-    private fun area() = 0.5 * a * b
-    private fun perimeter() = a + b + c
+    override fun area() = 0.5 * a * b
+    override fun perimeter() = a + b + c
 }
